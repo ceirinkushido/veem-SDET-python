@@ -1,0 +1,681 @@
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 1 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 1 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 1 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\t2\t3 - Source: 922ec9531b1f94add983a8ce2ebdc97b, Destination: 922ec9531b1f94add983a8ce2ebdc97b
+Operations: Created 0 files, Modified 0 files, Deleted 1 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\testing\test - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 1 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 1 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\3.txt - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\3.txt - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files, Modified 1 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\3.txt - Source: 098f6bcd4621d373cade4e832627b4f6, Destination: 098f6bcd4621d373cade4e832627b4f6
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\3.txt - Source: 098f6bcd4621d373cade4e832627b4f6, Destination: 098f6bcd4621d373cade4e832627b4f6
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\3.txt - Source: 098f6bcd4621d373cade4e832627b4f6, Destination: 098f6bcd4621d373cade4e832627b4f6
+Operations: Created 0 files, Modified 0 files, Deleted 1 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+Operations: Created 2 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Error: Source folder C:\Users\Ceirin\Desktop\Projects\work\veem\sour1e does not exist.
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 50 seconds
+Operations: Created 1 files, Modified 0 files, Deleted 0 files
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 50 seconds
+Operations: Created 2 files/directories, Modified 0 files, Deleted 2 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 50 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\2\2.md - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 2 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\3\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\3\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\3\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 2 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 2 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\1\ttest.py - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\1\ttest.py - Source: d41d8cd98f00b204e9800998ecf8427e, Destination: d41d8cd98f00b204e9800998ecf8427e
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Operations: Created 1 files/directories, Modified 2 files, Deleted 2 files/directories
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 1 files/directories, Modified 2 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 1 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 1 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 1 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 1 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: e71c27c3ee34c7e07c04d95cd97d571d, Destination: e71c27c3ee34c7e07c04d95cd97d571d
+Sync Parameters: Source Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\source, Destination Folder - C:\Users\Ceirin\Desktop\Projects\work\veem\destination, Sync Interval - 2 seconds
+Operations: Created 0 files/directories, Modified 1 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: 040b7cf4a55014e185813e0644502ea9, Destination: 040b7cf4a55014e185813e0644502ea9
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: 040b7cf4a55014e185813e0644502ea9, Destination: 040b7cf4a55014e185813e0644502ea9
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: 040b7cf4a55014e185813e0644502ea9, Destination: 040b7cf4a55014e185813e0644502ea9
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: 040b7cf4a55014e185813e0644502ea9, Destination: 040b7cf4a55014e185813e0644502ea9
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: 040b7cf4a55014e185813e0644502ea9, Destination: 040b7cf4a55014e185813e0644502ea9
+Operations: Created 0 files/directories, Modified 0 files, Deleted 0 files/directories
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\test.txt - Source: e13b0272a2f47b6a5868b8b7b9d05440, Destination: e13b0272a2f47b6a5868b8b7b9d05440
+MD5 Validation: File C:\Users\Ceirin\Desktop\Projects\work\veem\source\4\2.md - Source: 040b7cf4a55014e185813e0644502ea9, Destination: 040b7cf4a55014e185813e0644502ea9
