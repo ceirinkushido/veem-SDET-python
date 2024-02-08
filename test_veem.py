@@ -1,339 +1,273 @@
 import os
-from tempfile import TemporaryDirectory
 import time
-import pytest
-import sync_folders
-import hashlib
 import shutil
-from multiprocessing import Process
+import pytest
+import hashlib
+import multiprocessing
 from pathlib import Path
-from tempfile import TemporaryDirectory
+from tempfile import TemporaryDirectory, NamedTemporaryFile
+from sync_folders import compute_md5 , copy_new_files, delete_removed_files, sync_folders
+
+
+class TestComputeMD5:
+    def test_compute_md5_correct_hash(self):
+        # Create a temporary file with known content
+        with NamedTemporaryFile(delete=False) as tmpfile:
+            tmpfile.write(b"Hello, world!")
+            tmpfile_path = tmpfile.name
+
+        # Compute MD5 hash of the temporary file
+        expected_hash = hashlib.md5(b"Hello, world!").hexdigest()
+        computed_hash = compute_md5(tmpfile_path)
+
+        # Clean up the temporary file
+        os.unlink(tmpfile_path)
+
+        assert computed_hash == expected_hash, "MD5 hash does not match for the given file content."
+
+    def test_compute_md5_non_existent_file(self):
+        with pytest.raises(FileNotFoundError):
+            compute_md5("non_existent_file.txt")
+
+    def test_compute_md5_large_file(self):
+        # Create a large temporary file
+        with NamedTemporaryFile(delete=False) as tmpfile:
+            # Writing 1GB of zeros to the file
+            tmpfile.write(b"\0" * 1024 * 1024 * 1024)
+            tmpfile_path = tmpfile.name
+
+        # Attempt to compute MD5 hash of the large file
+        try:
+            compute_md5(tmpfile_path)
+            assert True, "Successfully computed MD5 hash for a large file without running out of memory."
+        except MemoryError:
+            pytest.fail("Failed to compute MD5 hash for a large file due to memory error.")
+        finally:
+            # Clean up the temporary file
+            os.unlink(tmpfile_path)
+
+class TestCopyNewFiles:
+    def setup_method(self):
+        self.temp_dir = TemporaryDirectory()
+        self.source_folder = Path(self.temp_dir.name, "source")
+        self.destination_folder = Path(self.temp_dir.name, "destination")
+        self.source_folder.mkdir()
+        self.destination_folder.mkdir()
+
+    def teardown_method(self):
+        self.temp_dir.cleanup()
+
+    def test_copy_new_files(self):
+        # Create a new file in the source folder
+        new_file_path = self.source_folder / "new_file.txt"
+        new_file_path.write_text("This is a new file.")
+
+        # Run the function
+        create_count, modify_count = copy_new_files(str(self.source_folder), str(self.destination_folder))
+
+        # Check if the file was copied
+        assert (self.destination_folder / "new_file.txt").exists()
+        assert create_count == 1
+        assert modify_count == 0
+
+    def test_copy_modified_files(self):
+        # Create a file and copy it to the destination folder
+        existing_file_path = self.source_folder / "existing_file.txt"
+        existing_file_path.write_text("Original content.")
+        shutil.copy2(existing_file_path, self.destination_folder)
+
+        # Modify the file in the source folder
+        existing_file_path.write_text("Modified content.")
+
+        # Run the function
+        create_count, modify_count = copy_new_files(str(self.source_folder), str(self.destination_folder))
+
+        # Check if the file was modified
+        with open(self.destination_folder / "existing_file.txt", "r") as f:
+            content = f.read()
+        assert content == "Modified content."
+        assert create_count == 0
+        assert modify_count == 1
+
+    def test_handle_non_existent_source_files(self):
+        # Point to a non-existent source folder
+        non_existent_source = self.source_folder / "non_existent"
+
+        # Run the function
+        create_count, modify_count = copy_new_files(str(non_existent_source), str(self.destination_folder))
+
+        # Since the source folder does not exist, no files should be copied or modified
+        assert create_count == 0
+        assert modify_count == 0
+        
+    def test_copy_new_directory(self):
+        # Create a new directory in the source folder
+        new_dir_path = self.source_folder / "new_dir"
+        new_dir_path.mkdir()
+
+        # Run the function
+        create_count, modify_count = copy_new_files(str(self.source_folder), str(self.destination_folder))
+
+        # Check if the directory was copied
+        assert (self.destination_folder / "new_dir").exists()
+        assert create_count == 1
+        assert modify_count == 0
+
+    def test_copy_new_directory_with_files(self):
+        # Create a new directory with a file in the source folder
+        new_dir_path = self.source_folder / "new_dir"
+        new_dir_path.mkdir()
+        new_file_path = new_dir_path / "new_file.txt"
+        new_file_path.write_text("This is a new file.")
+
+        # Run the function
+        create_count, modify_count = copy_new_files(str(self.source_folder), str(self.destination_folder))
+
+        # Check if the directory and file were copied
+        assert (self.destination_folder / "new_dir").exists()
+        assert (self.destination_folder / "new_dir" / "new_file.txt").exists()
+        assert create_count == 2
+        assert modify_count == 0
+
+    def test_copy_nested_directories(self):
+        # Create nested directories with a file in the source folder
+        nested_dir_path = self.source_folder / "dir1" / "dir2"
+        nested_dir_path.mkdir(parents=True)
+        new_file_path = nested_dir_path / "new_file.txt"
+        new_file_path.write_text("This is a new file.")
+
+        # Run the function
+        create_count, modify_count = copy_new_files(str(self.source_folder), str(self.destination_folder))
+
+        # Check if the nested directories and file were copied
+        assert (self.destination_folder / "dir1" / "dir2").exists()
+        assert (self.destination_folder / "dir1" / "dir2" / "new_file.txt").exists()
+        assert create_count == 3
+        assert modify_count == 0
+
+class TestDeleteRemovedFiles:
+    def setup_method(self):
+        self.temp_dir = TemporaryDirectory()
+        self.source_folder = Path(self.temp_dir.name, "source")
+        self.destination_folder = Path(self.temp_dir.name, "destination")
+        self.source_folder.mkdir()
+        self.destination_folder.mkdir()
+
+    def teardown_method(self):
+        self.temp_dir.cleanup()
+
+    def test_delete_removed_files_happy_path(self):
+        # Setup
+        (self.source_folder / "keep_file.txt").touch()
+        (self.destination_folder / "keep_file.txt").touch()
+        (self.destination_folder / "delete_file.txt").touch()
+        (self.destination_folder / "delete_folder").mkdir()
+        assert len(list(self.destination_folder.iterdir())) == 3  # 2 files, 1 folder
+
+        # Exercise
+        delete_count = delete_removed_files(str(self.source_folder), str(self.destination_folder))
+
+        # Verify
+        assert delete_count == 2  # 1 file, 1 folder deleted
+        assert len(list(self.destination_folder.iterdir())) == 1  # Only "keep_file.txt" should remain
+
+    def test_delete_removed_files_no_deletion(self):
+        # Setup
+        (self.source_folder / "keep_file.txt").touch()
+        (self.destination_folder / "keep_file.txt").touch()
+        assert len(list(self.destination_folder.iterdir())) == 1
+
+        # Exercise
+        delete_count = delete_removed_files(str(self.source_folder), str(self.destination_folder))
+
+        # Verify
+        assert delete_count == 0  # No files should be deleted
+        assert len(list(self.destination_folder.iterdir())) == 1  # "keep_file.txt" should remain
+
+    def test_delete_removed_files_no_source_folder(self):
+        # Setup
+        (self.destination_folder / "delete_file.txt").touch()
+        assert len(list(self.destination_folder.iterdir())) == 1
+
+        # Exercise
+        delete_count = delete_removed_files(str(Path(self.temp_dir.name, "non_existent_source")), str(self.destination_folder))
+
+        # Verify
+        assert delete_count == 0  # No files should be deleted as source folder does not exist
+        assert len(list(self.destination_folder.iterdir())) == 1  # "delete_file.txt" should remain
+    
+    def test_delete_removed_files_with_directories(self):
+        # Setup
+        (self.source_folder / "keep_dir").mkdir()
+        (self.destination_folder / "keep_dir").mkdir()
+        (self.destination_folder / "delete_dir").mkdir()
+        assert len(list(self.destination_folder.iterdir())) == 2  # 2 directories
+
+        # Exercise
+        delete_count = delete_removed_files(str(self.source_folder), str(self.destination_folder))
+
+        # Verify
+        assert delete_count == 1  # 1 directory deleted
+        assert len(list(self.destination_folder.iterdir())) == 1  # Only "keep_dir" should remain
+
+    def test_delete_removed_files_with_nested_directories(self):
+        # Setup
+        (self.source_folder / "keep_dir" / "nested_dir").mkdir(parents=True)
+        (self.destination_folder / "keep_dir" / "nested_dir").mkdir(parents=True)
+        (self.destination_folder / "delete_dir" / "nested_dir").mkdir(parents=True)
+        assert len(list(self.destination_folder.iterdir())) == 2  # 2 directories at root level
+
+        # Exercise
+        delete_count = delete_removed_files(str(self.source_folder), str(self.destination_folder))
+
+        # Verify
+        assert delete_count == 2  # 2 directories deleted ("delete_dir" and "delete_dir/nested_dir")
+        assert len(list(self.destination_folder.iterdir())) == 1  # Only "keep_dir" should remain
+        assert len(list((self.destination_folder / "keep_dir").iterdir())) == 1  # "nested_dir" should remain in "keep_dir"
 
 @pytest.fixture
-def setup_folders():
-    with TemporaryDirectory() as temp_dir:
-        temp_dir = Path(temp_dir)
-        source_folder = temp_dir / 'source'
-        destination_folder = temp_dir / 'destination'
-        log_file = temp_dir / 'log.txt'
-        sync_interval = 1
-
-        source_folder.mkdir()
-        destination_folder.mkdir()
-
-        yield str(source_folder), str(destination_folder), str(log_file), sync_interval
-
-
-def run_sync_folders(source_folder, destination_folder, log_file, sync_interval):
-    p = Process(target=sync_folders.sync_folders, args=(source_folder, destination_folder, log_file, sync_interval))
-    p.start()
-
-    # Wait for the sync interval to pass and then terminate the process
-    time.sleep(sync_interval + 1)
-    p.terminate()
-    p.join()
-
-def test_md5_validation(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a file in the source folder
-    source_file_path = os.path.join(source_folder, "file1.txt")
-    with open(source_file_path, 'w') as f:
-        f.write("Test content")
-
-    # Calculate MD5 hash of the source file
-    with open(source_file_path, 'rb') as f:
-        source_file_hash = hashlib.md5(f.read()).hexdigest()
-
-    # Run sync_folders
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Calculate MD5 hash of the copied file in the destination folder
-    destination_file_path = os.path.join(destination_folder, "file1.txt")
-    with open(destination_file_path, 'rb') as f:
-        destination_file_hash = hashlib.md5(f.read()).hexdigest()
-
-    # Check that the MD5 hash of the source and destination files are the same
-    assert source_file_hash == destination_file_hash, "MD5 hash of source and destination files do not match"
-
-def test_log_file_is_created(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Check if log file is created and has content
-    assert os.path.exists(log_file)
-    assert open(log_file).read() != ""
-
-def test_files_are_updated(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Modify a file in source folder
-    open(os.path.join(source_folder, "file1.txt"), 'w').write("new content")
-
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Check if file is updated in destination folder
-    assert open(os.path.join(destination_folder, "file1.txt")).read() == "new content"
-
-def test_files_are_removed(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a file in the destination folder
-    destination_file_path = os.path.join(destination_folder, "file1.txt")
-    with open(destination_file_path, 'w') as f:
-        f.write("Test content")
-
-    # Run sync_folders
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Check that the file has been removed from the destination folder
-    assert not os.path.exists(destination_file_path), "sync_folders did not remove the file from the destination folder"
-
-def calculate_md5(file_path):
-    with open(file_path, "rb") as f:
-        file_hash = hashlib.md5()
-        while chunk := f.read(8192):
-            file_hash.update(chunk)
-    return file_hash.hexdigest()
-
-def test_files_are_copied(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a file in the source folder
-    with open(os.path.join(source_folder, "file1.txt"), 'w') as f:
-        f.write("Test content")
-
-    # Run sync_folders
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Check that the file has been copied to the destination folder
-    with open(os.path.join(destination_folder, "file1.txt"), 'r') as f:
-        assert f.read() == "Test content", "sync_folders did not copy the file from the source to the destination folder"
-
-def test_empty_source_directory(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Make source directory empty
-    for filename in os.listdir(source_folder):
-        os.remove(os.path.join(source_folder, filename))
-
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Assert that destination directory is also empty
-    assert not os.listdir(destination_folder)
-
-def test_large_files(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a large file in source directory
-    with open(os.path.join(source_folder, "large_file.txt"), 'w') as f:
-        f.write('0' * 1024 * 1024 * 10)  # 10 MB
-
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Assert that large file is copied to destination directory
-    assert os.path.exists(os.path.join(destination_folder, "large_file.txt"))
-
-def test_many_files(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create many files in source directory
-    for i in range(1000):
-        with open(os.path.join(source_folder, f"file{i}.txt"), 'w') as f:
-            f.write(str(i))
-
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Assert that all files are copied to destination directory
-    assert len(os.listdir(destination_folder)) == 1000
-
-def test_non_existent_source_directory(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Remove source directory
-    shutil.rmtree(source_folder)
-
-    # Assert that running sync_folders doesn't raise an exception
-    try:
-        run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-    except Exception:
-        assert False, "sync_folders raised an exception with a non-existent source directory"
-
-def test_non_existent_destination_directory(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Remove destination directory
-    shutil.rmtree(destination_folder)
-
-    # Assert that running run_sync_folders doesn't raise an exception
-    try:
-        run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-    except Exception:
-        assert False, "run_sync_folders raised an exception with a non-existent destination directory"
-
-def test_same_name_different_content(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a file in the source folder
-    with open(os.path.join(source_folder, "file1.txt"), 'w') as f:
-        f.write("hello")
-
-    # Create a file in destination directory with the same name as a source file, but different content
-    with open(os.path.join(destination_folder, "file1.txt"), 'w') as f:
-        f.write("different content")
-
-    # Run sync_folders
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Assert that destination file is overwritten with source file
-    with open(os.path.join(destination_folder, "file1.txt")) as f:
-        assert f.read() == "different content", "Destination file was not overwritten with source file"
-
-def test_read_only_files(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a read-only file in source directory
-    read_only_file = os.path.join(source_folder, "read_only_file.txt")
-    with open(read_only_file, 'w') as f:
-        f.write("read only")
-    os.chmod(read_only_file, 0o444)
-
-    # Assert that running sync_folders doesn't raise an exception
-    try:
-        run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-    except Exception:
-        assert False, "sync_folders raised an exception with a read-only source file"
-
-def test_files_being_used(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Create a file in the source folder
-    with open(os.path.join(source_folder, "file1.txt"), 'w') as f:
-        f.write("Test content")
-
-    # Open a source file
-    f = open(os.path.join(source_folder, "file1.txt"))
-
-    # Assert that running sync_folders doesn't raise an exception
-    try:
-        run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-    except Exception:
-        assert False, "sync_folders raised an exception with a file being used"
-
-    # Close the file
-    f.close()
-
-def test_error_logging(setup_folders):
-    source_folder, destination_folder, log_file, sync_interval = setup_folders
-
-    # Remove source directory to cause an error
-    shutil.rmtree(source_folder)
-
-    run_sync_folders(source_folder, destination_folder, log_file, sync_interval)
-
-    # Assert that an error message was logged
-    with open(log_file, 'r') as f:
-        log_contents = f.read()
-    assert f"Error: Source folder {source_folder} does not exist." in log_contents
-
-def test_file_creation():
-    with TemporaryDirectory() as source_folder:
-        with TemporaryDirectory() as destination_folder:
-            # Create a file in the source_folder
-            with open(os.path.join(source_folder, 'test.txt'), 'w') as f:
-                f.write('test')
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Check if file was created in destination_folder
-            assert os.path.exists(os.path.join(destination_folder, 'test.txt'))
-
-def test_file_modification():
-    with TemporaryDirectory() as source_folder:
-        with TemporaryDirectory() as destination_folder:
-            # Create a file in the source_folder
-            with open(os.path.join(source_folder, 'test.txt'), 'w') as f:
-                f.write('test')
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Modify the file in the source_folder
-            with open(os.path.join(source_folder, 'test.txt'), 'w') as f:
-                f.write('modified test')
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Check if file was modified in destination_folder
-            with open(os.path.join(destination_folder, 'test.txt'), 'r') as f:
-                assert f.read() == 'modified test'
-
-def test_file_deletion():
-    with TemporaryDirectory() as source_folder:
-        with TemporaryDirectory() as destination_folder:
-            # Create a file in the source_folder
-            with open(os.path.join(source_folder, 'test.txt'), 'w') as f:
-                f.write('test')
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Delete the file in the source_folder
-            os.remove(os.path.join(source_folder, 'test.txt'))
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Check if file was deleted in destination_folder
-            assert not os.path.exists(os.path.join(destination_folder, 'test.txt'))
-
-def test_nested_directory_deletion():
-    with TemporaryDirectory() as source_folder:
-        with TemporaryDirectory() as destination_folder:
-            # Create a nested directory in the source_folder
-            os.makedirs(os.path.join(source_folder, 'dir1', 'dir2'))
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Delete the nested directory in the source_folder
-            shutil.rmtree(os.path.join(source_folder, 'dir1', 'dir2'))
-
-            # Perform synchronization
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Check if nested directory was deleted in destination_folder
-            assert not os.path.exists(os.path.join(destination_folder, 'dir1', 'dir2'))
-            
-def test_nested_directory_creation():
-    with TemporaryDirectory() as source_folder:
-        with TemporaryDirectory() as destination_folder:
-            # Create a nested directory in the source_folder
-            os.makedirs(os.path.join(source_folder, 'dir1', 'dir2'))
-
-            # Run sync_folders
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Check if nested directory was created in destination_folder
-            assert os.path.exists(os.path.join(destination_folder, 'dir1', 'dir2')), "Nested directory was not created in destination folder"
-
-def test_nested_directory_modification():
-    with TemporaryDirectory() as source_folder:
-        with TemporaryDirectory() as destination_folder:
-            # Create a nested directory in the source_folder
-            os.makedirs(os.path.join(source_folder, 'dir1', 'dir2'))
-
-            # Run sync_folders
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Rename the nested directory in the source_folder
-            os.rename(os.path.join(source_folder, 'dir1', 'dir2'), os.path.join(source_folder, 'dir1', 'dir3'))
-
-            # Run sync_folders
-            run_sync_folders(source_folder, destination_folder, 'log.txt', 1)
-
-            # Check if nested directory was renamed in destination_folder
-            assert os.path.exists(os.path.join(destination_folder, 'dir1', 'dir3')), "Nested directory was not renamed in destination folder"
+def setup_folders(tmp_path):
+    source_folder = tmp_path / "source"
+    destination_folder = tmp_path / "destination"
+    source_folder.mkdir()
+    destination_folder.mkdir()
+    return source_folder, destination_folder
+
+@pytest.fixture
+def create_test_files(setup_folders):
+    source_folder, _ = setup_folders
+    (source_folder / "test_file.txt").write_text("This is a test file.")
+    (source_folder / "subfolder").mkdir()
+    (source_folder / "subfolder/test_file_in_subfolder.txt").write_text("This is another test file in a subfolder.")
+
+class TestSyncFolders:
+    def test_sync_folders_happy_path(self, setup_folders, create_test_files, tmp_path):
+        source_folder, destination_folder = setup_folders
+        log_file = tmp_path / "sync.log"
+
+        # Run sync_folders in a separate process
+        p = multiprocessing.Process(target=sync_folders, args=(str(source_folder), str(destination_folder), 1, str(log_file)))
+        p.start()
+
+        # Allow sync_folders to run for a certain amount of time
+        time.sleep(5)
+
+        # Terminate the process
+        p.terminate()
+
+        assert (destination_folder / "test_file.txt").exists()
+        assert (destination_folder / "subfolder/test_file_in_subfolder.txt").exists()
+
+    def test_sync_folders_source_folder_not_exist(self, setup_folders, tmp_path):
+        _, destination_folder = setup_folders
+        non_existent_source_folder = "non_existent_folder"
+        log_file = tmp_path / "sync.log"
+        with pytest.raises(FileNotFoundError):
+            sync_folders(non_existent_source_folder, str(destination_folder), 1, str(log_file))
+
+    def test_sync_folders_destination_folder_not_exist(self, setup_folders, tmp_path):
+        source_folder, _ = setup_folders
+        non_existent_destination_folder = "non_existent_folder"
+        log_file = tmp_path / "sync.log"
+        with pytest.raises(FileNotFoundError):
+            sync_folders(str(source_folder), non_existent_destination_folder, 1, str(log_file))
