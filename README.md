@@ -30,7 +30,7 @@ The sync_folders.py script is a utility for synchronizing the contents of two di
 To run sync_folders.py, you need to provide the source directory, destination directory, log file path and sync interval as command-line arguments:
 
 ```python
-python sync_folders.py <source_directory> <destination_directory> <log_file> <sync_interval>
+python sync_folders.py <source_directory> <destination_directory> <sync_interval> <log_file>
 ```
 
 The sync_interval is the time in seconds between each synchronization operation.
