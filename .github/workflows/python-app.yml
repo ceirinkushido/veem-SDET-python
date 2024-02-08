@@ -22,13 +22,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         pip install schedule
-        pip install pathlib
-        pip install hashlib
-        pip install logging
-        pip install shutil
-        pip install os
-        pip install sys
-        pip install time
     - name: Test with pytest
       run: |
         python -m pytest test_veem.py
