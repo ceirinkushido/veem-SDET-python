@@ -7,7 +7,7 @@ import hashlib
 import logging
 from pathlib import Path
 
-def compute_md5(file_path):
+def compute_md5(file_path: str) -> str:
     """
     Compute the MD5 hash of a file.
 
@@ -22,18 +22,14 @@ def compute_md5(file_path):
         IOError: If an error occurs while opening or reading the file.
     """
     try:
-        if not Path(file_path).is_file():
-            raise FileNotFoundError(f"Invalid file path: {file_path}")
         with open(file_path, 'rb') as f:
-            chunk_size = 4096
             hash_md5 = hashlib.md5()
-            while True:
-                chunk = f.read(chunk_size)
-                if not chunk:
-                    break
+            for chunk in iter(lambda: f.read(4096), b''):
                 hash_md5.update(chunk)
         return hash_md5.hexdigest()
-    except (FileNotFoundError, IOError) as e:
+    except FileNotFoundError as e:
+        raise FileNotFoundError(f"Invalid file path: {file_path}") from e
+    except IOError as e:
         logging.error(f"Error computing MD5 for file {file_path}: {str(e)}")
         return None
 
