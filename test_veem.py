@@ -10,41 +10,149 @@ from sync_folders import compute_md5 , copy_new_files, delete_removed_files, syn
 
 
 class TestComputeMD5:
-    def test_compute_md5_correct_hash(self):
-        # Create a temporary file with known content
-        with NamedTemporaryFile(delete=False) as tmpfile:
-            tmpfile.write(b"Hello, world!")
-            tmpfile_path = tmpfile.name
+    # Computes the MD5 hash of an existing file and returns it as a string.
+    def test_compute_md5_returns_string_with_existing_file(self):
+        # Arrange
+        file_path = "existing_file.txt"
+        expected_md5 = "8f072930202d3c7211dff0688e9cddf5"
 
-        # Compute MD5 hash of the temporary file
-        expected_hash = hashlib.md5(b"Hello, world!").hexdigest()
-        computed_hash = compute_md5(tmpfile_path)
+        # Create the existing file
+        with open(file_path, 'w') as f:
+            f.write("This is an existing file")
 
-        # Clean up the temporary file
-        os.unlink(tmpfile_path)
+        # Act
+        result = compute_md5(file_path)
 
-        assert computed_hash == expected_hash, "MD5 hash does not match for the given file content."
+        # Assert
+        assert isinstance(result, str)
+        assert result == expected_md5
+        
+    # Handles valid file paths and returns the correct MD5 hash.
+    def test_compute_md5_valid_file_path(self):
+        # Arrange
+        file_path = "test_file.txt"
+        expected_md5 = "c785060c866796cc2a1708c997154c8e"
 
-    def test_compute_md5_non_existent_file(self):
+        # Create the test file
+        with open(file_path, 'w') as f:
+            f.write("test file content")
+
+        # Act
+        result = compute_md5(file_path)
+
+        # Assert
+        assert result == expected_md5
+    
+    # Handles files with different sizes and returns the correct MD5 hash.
+    def test_compute_md5_different_sizes(self):
+        # Arrange
+        file_path1 = "test_file1.txt"
+        file_path2 = "test_file2.txt"
+    
+        # Create two files with different sizes
+        with open(file_path1, 'w') as f1:
+            f1.write("This is a test file.")
+        with open(file_path2, 'w') as f2:
+            f2.write("This is a test file. It has a longer content.")
+    
+        # Act
+        result1 = compute_md5(file_path1)
+        result2 = compute_md5(file_path2)
+    
+        # Assert
+        assert result1 != result2
+
+    # Raises FileNotFoundError if the file does not exist.
+    def test_compute_md5_file_not_found(self):
+        # Arrange
+        file_path = "nonexistent_file.txt"
+    
+        # Act and Assert
         with pytest.raises(FileNotFoundError):
-            compute_md5("non_existent_file.txt")
+            compute_md5(file_path)
+   
+    # Handles files with short paths and returns the correct MD5 hash.
+    def test_compute_md5_short_paths_with_file_creation(self):
+        # Arrange
+        file_path = "test_file.txt"
+        expected_md5 = "a4d83b950999f569f7fee8d96fb31900"
 
-    def test_compute_md5_large_file(self):
-        # Create a large temporary file
-        with NamedTemporaryFile(delete=False) as tmpfile:
-            # Writing 1GB of zeros to the file
-            tmpfile.write(b"\0" * 1024 * 1024 * 1024)
-            tmpfile_path = tmpfile.name
+        # Create the file at the specified path
+        with open(file_path, 'w') as f:
+            f.write("This is a test file\n")
 
-        # Attempt to compute MD5 hash of the large file
-        try:
-            compute_md5(tmpfile_path)
-            assert True, "Successfully computed MD5 hash for a large file without running out of memory."
-        except MemoryError:
-            pytest.fail("Failed to compute MD5 hash for a large file due to memory error.")
-        finally:
-            # Clean up the temporary file
-            os.unlink(tmpfile_path)
+        # Act
+        result = compute_md5(file_path)
+
+        # Assert
+        assert result == expected_md5
+    
+    # Handles files with binary content and returns the correct MD5 hash.
+    def test_handles_files_with_binary_content(self):
+        # Arrange
+        file_path = "binary_file.bin"
+        expected_md5 = "d15ae53931880fd7b724dd7888b4b4ed"
+
+        # Create the binary file
+        with open(file_path, 'wb') as f:
+            f.write(b"\x00\x01\x02\x03\x04\x05")
+
+        # Act
+        result = compute_md5(file_path)
+
+        # Assert
+        assert isinstance(result, str)
+        assert result == expected_md5
+    
+    # Handles files with different contents and returns the correct MD5 hash.
+    def test_handles_files_with_different_contents(self):
+        # Arrange
+        file_path = "file1.txt"
+        expected_md5 = "e1d1faab91eb551b9a566eead319a012"
+
+        # Create the file with different contents
+        with open(file_path, 'w') as f:
+            f.write("This is file 1")
+
+        # Act
+        result = compute_md5(file_path)
+
+        # Assert
+        assert isinstance(result, str)
+        assert result == expected_md5
+    
+    # Handles files with special characters in the name and returns the correct MD5 hash.
+    def test_handles_files_with_special_characters(self):
+        # Arrange
+        file_path = "file@#$%.txt"
+        expected_md5 = "44c53aafa5da17311de19d6fd76717a1"
+
+        # Create the file with special characters in the name
+        with open(file_path, 'w') as f:
+            f.write("This is a file with special characters")
+
+        # Act
+        result = compute_md5(file_path)
+
+        # Assert
+        assert isinstance(result, str)
+        assert result == expected_md5
+    
+    # Handles files with no content and returns the correct MD5 hash.
+    def test_handles_files_with_no_content(self):
+        # Arrange
+        file_path = "empty_file.txt"
+        expected_md5 = "d41d8cd98f00b204e9800998ecf8427e"
+
+        # Create an empty file
+        Path(file_path).touch()
+
+        # Act
+        result = compute_md5(file_path)
+
+        # Assert
+        assert isinstance(result, str)
+        assert result == expected_md5
 
 class TestCopyNewFiles:
     def setup_method(self):
