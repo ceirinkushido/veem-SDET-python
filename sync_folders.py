@@ -34,6 +34,20 @@ def compute_hash(file_path: str) -> str:
         raise e
 
 def copy_new_files(source_folder, destination_folder):
+    """
+    Copy new files from the source folder to the destination folder.
+
+    Args:
+        source_folder (str): The path to the source folder.
+        destination_folder (str): The path to the destination folder.
+
+    Returns:
+        tuple: A tuple containing the count of newly created files and modified files.
+
+    Raises:
+        None
+
+    """
     create_count = 0
     modify_count = 0
     for root, dirs, files in os.walk(source_folder):
@@ -55,6 +69,17 @@ def copy_new_files(source_folder, destination_folder):
     return create_count, modify_count
 
 def delete_removed_files(source_folder, destination_folder):
+    """
+    Delete files and directories in the destination folder that do not exist in the source folder.
+
+    Parameters:
+    - source_folder (str): The path to the source folder.
+    - destination_folder (str): The path to the destination folder.
+
+    Returns:
+    - delete_count (int): The number of files and directories deleted.
+
+    """
     source_folder_path = Path(source_folder)
     if not source_folder_path.exists():
         return 0
@@ -76,6 +101,21 @@ def delete_removed_files(source_folder, destination_folder):
     return delete_count
 
 def sync_folders(source_folder, destination_folder, sync_interval, log_file):
+    """
+    Synchronize folders by copying new files, deleting removed files, and performing MD5 validation.
+
+    Args:
+        source_folder (str): The path to the source folder.
+        destination_folder (str): The path to the destination folder.
+        sync_interval (int): The interval in seconds at which to synchronize the folders.
+        log_file (str): The path to the log file.
+
+    Returns:
+        None
+
+    Raises:
+        FileNotFoundError: If the source folder or destination folder does not exist.
+    """
     source_folder = Path(source_folder)
     destination_folder = Path(destination_folder)
     
