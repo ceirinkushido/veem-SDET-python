@@ -29,7 +29,7 @@ def compute_hash(file_path: str) -> str:
         return hash_sha256.hexdigest()
     except FileNotFoundError as e:
         raise FileNotFoundError(f"Invalid file path: {file_path}") from e
-    except IOError as e:
+    except OSError as e:
         logging.error(f"Error computing SHA-256 for file {file_path}: {str(e)}")
         raise e
 

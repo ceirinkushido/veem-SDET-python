@@ -82,7 +82,7 @@ class TestComputeHash:
             with pytest.raises(FileNotFoundError):
                 compute_hash(file_path)
 
-    # Raises IOError if an error occurs while opening or reading the file.
+    # Raises OSError if an error occurs while opening or reading the file.
     def test_compute_hash_io_error(self):
         # Arrange
         import tempfile
@@ -90,7 +90,7 @@ class TestComputeHash:
             file_path = temp_file.name
 
             # Act and Assert
-            with pytest.raises(IOError):
+            with pytest.raises(OSError):
                 compute_hash(file_path)
 
     # Handles files with maximum allowed size.
