@@ -90,7 +90,7 @@ class TestComputeHash:
             file_path = temp_file.name
 
             # Act and Assert
-            with pytest.raises(IOError):
+            with pytest.raises(IOError) or pytest.raises(OSError):
                 compute_hash(file_path)
 
     # Handles files with maximum allowed size.
