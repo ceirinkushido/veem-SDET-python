@@ -83,7 +83,7 @@ class TestComputeHash:
                 compute_hash(file_path)
 
     # Raises OSError if an error occurs while opening or reading the file.
-    '''def test_compute_hash_os_error(self):
+    def test_compute_hash_os_error(self):
         # Arrange
         import tempfile
         with tempfile.NamedTemporaryFile() as temp_file:
@@ -91,7 +91,7 @@ class TestComputeHash:
 
             # Act and Assert
             with pytest.raises(OSError):
-                compute_hash(file_path)'''
+                compute_hash(file_path)
 
     # Handles files with maximum allowed size.
     def test_compute_hash_maximum_size(self):
@@ -254,7 +254,7 @@ class TestCopyNewFiles:
         assert create_count == 1
         assert modify_count == 0
 
-    '''def test_copy_modified_files(self):
+    def test_copy_modified_files(self):
         # Create a file and copy it to the destination folder
         existing_file_path = self.source_folder / "existing_file.txt"
         existing_file_path.write_text("Original content.")
@@ -271,7 +271,7 @@ class TestCopyNewFiles:
             content = f.read()
         assert content == "Modified content."
         assert create_count == 0
-        assert modify_count == 1'''
+        assert modify_count == 1
         
     def test_handle_non_existent_source_files(self):
         # Point to a non-existent source folder
