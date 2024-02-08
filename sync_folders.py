@@ -7,15 +7,15 @@ import hashlib
 import logging
 from pathlib import Path
 
-def compute_md5(file_path: str) -> str:
+def compute_hash(file_path: str) -> str:
     """
-    Compute the MD5 hash of a file.
+    Compute the SHA-256 hash of a file.
 
     Args:
         file_path (str): The path to the file.
 
     Returns:
-        str: The MD5 hash of the file.
+        str: The SHA-256 hash of the file.
 
     Raises:
         FileNotFoundError: If the file does not exist.
@@ -23,15 +23,15 @@ def compute_md5(file_path: str) -> str:
     """
     try:
         with open(file_path, 'rb') as f:
-            hash_md5 = hashlib.md5()
-            for chunk in iter(lambda: f.read(4096), b''):
-                hash_md5.update(chunk)
-        return hash_md5.hexdigest()
+            hash_sha256 = hashlib.sha256()
+            for chunk in iter(lambda: f.read(8192), b''):
+                hash_sha256.update(chunk)
+        return hash_sha256.hexdigest()
     except FileNotFoundError as e:
         raise FileNotFoundError(f"Invalid file path: {file_path}") from e
     except IOError as e:
-        logging.error(f"Error computing MD5 for file {file_path}: {str(e)}")
-        return None
+        logging.error(f"Error computing SHA-256 for file {file_path}: {str(e)}")
+        raise e
 
 def copy_new_files(source_folder, destination_folder):
     create_count = 0
@@ -102,8 +102,8 @@ def sync_folders(source_folder, destination_folder, sync_interval, log_file):
             if file.is_file():
                 dest_file_path = destination_folder / file.relative_to(source_folder)
                 if dest_file_path.exists():
-                    source_hash = compute_md5(file)
-                    dest_hash = compute_md5(dest_file_path)
+                    source_hash = compute_hash(file)
+                    dest_hash = compute_hash(dest_file_path)
                     if source_hash != dest_hash:
                         log_message = f"MD5 Validation: File {file} - Source: {source_hash}, Destination: {dest_hash}"
                         logging.info(log_message)

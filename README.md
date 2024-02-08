@@ -3,7 +3,7 @@
 This script implements a synch between two folders.
 
 Synchronization must be one-way: after the synchronization content of the
-replica folder should be modified to exactly match content of the source
+replica folder should be modified to exacly match content of the source
 folder.
 
 Synchronization should be performed periodically.

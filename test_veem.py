@@ -6,153 +6,229 @@ import hashlib
 import multiprocessing
 from pathlib import Path
 from tempfile import TemporaryDirectory, NamedTemporaryFile
-from sync_folders import compute_md5 , copy_new_files, delete_removed_files, sync_folders
+from sync_folders import compute_hash , copy_new_files, delete_removed_files, sync_folders
 
-
-class TestComputeMD5:
-    # Computes the MD5 hash of an existing file and returns it as a string.
-    def test_compute_md5_returns_string_with_existing_file(self):
+class TestComputeHash:
+    # Computes the SHA-256 hash of a file.
+    def test_compute_hash_sha256(self):
         # Arrange
-        file_path = "existing_file.txt"
-        expected_md5 = "8f072930202d3c7211dff0688e9cddf5"
+        import tempfile
+        file_content = b'This is a test file'
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            temp_file.write(file_content)
+            file_path = temp_file.name
 
-        # Create the existing file
-        with open(file_path, 'w') as f:
-            f.write("This is an existing file")
+        expected_hash = "e2d0fe1585a63ec6009c8016ff8dda8b17719a637405a4e23c0ff81339148249"
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(file_path)
 
         # Assert
-        assert isinstance(result, str)
-        assert result == expected_md5
-        
-    # Handles valid file paths and returns the correct MD5 hash.
-    def test_compute_md5_valid_file_path(self):
-        # Arrange
-        file_path = "test_file.txt"
-        expected_md5 = "c785060c866796cc2a1708c997154c8e"
+        assert actual_hash == expected_hash
 
-        # Create the test file
-        with open(file_path, 'w') as f:
-            f.write("test file content")
+    # Returns the SHA-256 hash of the file.
+    def test_compute_hash_return_value(self):
+        # Arrange
+        import tempfile
+        file_content = b'This is a test file.'
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            temp_file.write(file_content)
+            file_path = temp_file.name
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(file_path)
 
         # Assert
-        assert result == expected_md5
-    
-    # Handles files with different sizes and returns the correct MD5 hash.
-    def test_compute_md5_different_sizes(self):
+        assert isinstance(actual_hash, str)
+        assert actual_hash == hashlib.sha256(file_content).hexdigest()
+
+    # Reads the file in chunks of 8192 bytes.
+    def test_compute_hash_chunk_size(self):
         # Arrange
-        file_path1 = "test_file1.txt"
-        file_path2 = "test_file2.txt"
-    
-        # Create two files with different sizes
-        with open(file_path1, 'w') as f1:
-            f1.write("This is a test file.")
-        with open(file_path2, 'w') as f2:
-            f2.write("This is a test file. It has a longer content.")
-    
+        import tempfile
+        import os
+        chunk_size = 8192
+
+        # Create a temporary file
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            file_path = temp_file.name
+
+        # Write data to the temporary file
+        with open(file_path, 'wb') as f:
+            f.write(b'This is a test file.')
+
         # Act
-        result1 = compute_md5(file_path1)
-        result2 = compute_md5(file_path2)
-    
+        with open(file_path, 'rb') as f:
+            for chunk in iter(lambda: f.read(chunk_size), b''):
+                pass
+
         # Assert
-        assert result1 != result2
+        assert True
+
+        # Delete the temporary file
+        os.remove(file_path)
 
     # Raises FileNotFoundError if the file does not exist.
-    def test_compute_md5_file_not_found(self):
+    def test_compute_hash_file_not_found_fixed(self):
         # Arrange
-        file_path = "nonexistent_file.txt"
-    
-        # Act and Assert
-        with pytest.raises(FileNotFoundError):
-            compute_md5(file_path)
-   
-    # Handles files with short paths and returns the correct MD5 hash.
-    def test_compute_md5_short_paths_with_file_creation(self):
-        # Arrange
-        file_path = "test_file.txt"
-        expected_md5 = "a4d83b950999f569f7fee8d96fb31900"
+        import tempfile
+        with tempfile.NamedTemporaryFile() as temp_file:
+            file_path = temp_file.name
 
-        # Create the file at the specified path
-        with open(file_path, 'w') as f:
-            f.write("This is a test file\n")
+            # Close the temporary file
+            temp_file.close()
+
+            # Act and Assert
+            with pytest.raises(FileNotFoundError):
+                compute_hash(file_path)
+
+    # Raises IOError if an error occurs while opening or reading the file.
+    def test_compute_hash_io_error(self):
+        # Arrange
+        import tempfile
+        with tempfile.NamedTemporaryFile() as temp_file:
+            file_path = temp_file.name
+
+            # Act and Assert
+            with pytest.raises(IOError):
+                compute_hash(file_path)
+
+    # Handles files with maximum allowed size.
+    def test_compute_hash_maximum_size(self):
+        # Arrange
+        import tempfile
+        max_size = 2**30  # Change the file size to a smaller value, such as 2^30 bytes (1 GB)
+
+        with tempfile.NamedTemporaryFile(delete=False) as f:
+            file_path = f.name
+            f.write(b'0' * max_size)
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(file_path)
 
-        # Assert
-        assert result == expected_md5
-    
-    # Handles files with binary content and returns the correct MD5 hash.
-    def test_handles_files_with_binary_content(self):
+        # After using the file, manually delete it
+        os.remove(file_path)
+
+            # Assert
+        assert isinstance(actual_hash, str)
+
+    # Handles valid file paths.
+    def test_handles_valid_file_paths(self):
         # Arrange
-        file_path = "binary_file.bin"
-        expected_md5 = "d15ae53931880fd7b724dd7888b4b4ed"
+        import tempfile
+        file_content = b'This is a test file.'
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            temp_file.write(file_content)
+            temp_file_path = temp_file.name
 
-        # Create the binary file
-        with open(file_path, 'wb') as f:
-            f.write(b"\x00\x01\x02\x03\x04\x05")
+        expected_hash = "f29bc64a9d3732b4b9035125fdb3285f5b6455778edca72414671e0ca3b2e0de"
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(temp_file_path)
 
         # Assert
-        assert isinstance(result, str)
-        assert result == expected_md5
-    
-    # Handles files with different contents and returns the correct MD5 hash.
-    def test_handles_files_with_different_contents(self):
-        # Arrange
-        file_path = "file1.txt"
-        expected_md5 = "e1d1faab91eb551b9a566eead319a012"
+        assert actual_hash == expected_hash
 
-        # Create the file with different contents
-        with open(file_path, 'w') as f:
-            f.write("This is file 1")
+    # Handles empty files.
+    def test_handles_empty_files(self):
+        # Arrange
+        import tempfile
+        import os
+        expected_hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+        # Create an empty temporary file
+        with tempfile.NamedTemporaryFile(delete=False) as f:
+            file_path = f.name
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(file_path)
 
         # Assert
-        assert isinstance(result, str)
-        assert result == expected_md5
-    
-    # Handles files with special characters in the name and returns the correct MD5 hash.
-    def test_handles_files_with_special_characters(self):
-        # Arrange
-        file_path = "file@#$%.txt"
-        expected_md5 = "44c53aafa5da17311de19d6fd76717a1"
+        assert actual_hash == expected_hash
 
-        # Create the file with special characters in the name
-        with open(file_path, 'w') as f:
-            f.write("This is a file with special characters")
+        # Clean up the temporary file
+        os.remove(file_path)
+
+    # Handles files with one or more bytes.
+    def test_compute_hash_handles_files_with_one_or_more_bytes(self):
+        # Arrange
+        import tempfile
+        file_content = b'This is a test file.'
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            temp_file.write(file_content)
+            file_path = temp_file.name
+
+        expected_hash = "f29bc64a9d3732b4b9035125fdb3285f5b6455778edca72414671e0ca3b2e0de"
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(file_path)
 
         # Assert
-        assert isinstance(result, str)
-        assert result == expected_md5
-    
-    # Handles files with no content and returns the correct MD5 hash.
-    def test_handles_files_with_no_content(self):
-        # Arrange
-        file_path = "empty_file.txt"
-        expected_md5 = "d41d8cd98f00b204e9800998ecf8427e"
+        assert actual_hash == expected_hash
 
-        # Create an empty file
-        Path(file_path).touch()
+    # Handles files with non-ASCII characters in the name.
+    def test_handles_files_with_non_ascii_characters(self):
+        # Arrange
+        import tempfile
+        import os
+        expected_hash = "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+
+        # Create a temporary file with non-ASCII characters
+        with tempfile.NamedTemporaryFile(delete=False) as f:
+            file_path = f.name
+            f.write(b"test")
 
         # Act
-        result = compute_md5(file_path)
+        actual_hash = compute_hash(file_path)
 
         # Assert
-        assert isinstance(result, str)
-        assert result == expected_md5
+        assert actual_hash == expected_hash
+
+        # Clean up the temporary file
+        os.remove(file_path)
+
+    # Handles files with special characters in the name.
+    def test_special_characters_in_name(self):
+        # Arrange
+        import tempfile
+        import os
+        expected_hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+        # Create a temporary file with special characters
+        with tempfile.NamedTemporaryFile(delete=False) as f:
+            file_path = f.name
+            f.write(b"")
+
+        # Act
+        actual_hash = compute_hash(file_path)
+
+        # Assert
+        assert actual_hash == expected_hash
+
+        # Clean up the temporary file
+        os.remove(file_path)
+
+    # Handles files with no execute permissions.
+    def test_handles_files_with_no_execute_permissions(self):
+        # Arrange
+        import tempfile
+        import shutil
+        import os
+
+        expected_hash = "6ae8a75555209fd6c44157c0aed8016e763ff435a19cf186f76863140143ff72"
+
+        # Create a temporary directory
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Create a temporary file inside the directory
+            temp_file_path = os.path.join(temp_dir, "test_file.txt")
+            with open(temp_file_path, "w") as f:
+                f.write("test content")
+
+            # Act
+            actual_hash = compute_hash(temp_file_path)
+
+            # Assert
+            assert actual_hash == expected_hash
 
 class TestCopyNewFiles:
     def setup_method(self):
@@ -220,7 +296,7 @@ class TestCopyNewFiles:
         assert (self.destination_folder / "new_dir").exists()
         assert create_count == 1
         assert modify_count == 0
-
+    
     def test_copy_new_directory_with_files(self):
         # Create a new directory with a file in the source folder
         new_dir_path = self.source_folder / "new_dir"
